@@ -31,7 +31,7 @@ public class NumberWizard : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            min = guess;
+            max = guess;
             guess = (min + max) / 2;
             Debug.Log("<color=red> Czy twoja liczba jest mniejsza lub wieksza od </Color>" + guess + "<color=red> ? </Color>");
         }
